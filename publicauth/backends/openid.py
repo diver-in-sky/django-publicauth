@@ -4,7 +4,7 @@ from openid.consumer import consumer, discover
 from openid.extensions.sreg import SRegRequest, SRegResponse
 from openid.extensions.ax import FetchRequest, AttrInfo, FetchResponse
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _
 from django.core.urlresolvers import reverse
 from django.shortcuts import redirect
 from django.contrib import messages

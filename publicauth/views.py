@@ -1,5 +1,5 @@
 from django.conf import settings as global_settings
-from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _
 from django.shortcuts import redirect
 from django.contrib import messages
 from django.http import Http404
